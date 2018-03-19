@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <TextView
+      android:id="@+id/tvTarget"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  <Button
+      android:id="@+id/btnClick"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Click Me" />
+  <GridView
+      android:id="@+id/mGridView"
+      android:columnWidth="40dp"
+      android:verticalSpacing="15dp"
+      android:horizontalSpacing="1dp"
+      android:paddingTop="2dp"
+      android:stretchMode="columnWidth"
+      android:numColumns="4"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+</LinearLayout>

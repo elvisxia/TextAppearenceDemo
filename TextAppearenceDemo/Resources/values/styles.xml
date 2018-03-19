@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="ClickableTextView" parent="@android:style/Widget.EditText">
+    <item name="android:focusable">false</item>
+    <item name="android:textSize">8sp</item>
+  </style>
+
+  <style name="NormalTextView" parent="@android:TextAppearance.Small">
+    <item name="android:textColor">@android:color/black</item>
+    <item name="android:textSize">14sp</item>
+  </style>
+</resources>
